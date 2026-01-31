@@ -30,9 +30,8 @@ para identificar fortalezas y áreas de oportunidad.
 # =========================================
 # 4) LOGOTIPO (RÚBRICA #2)
 # =========================================
-# Coloca un archivo en: assets/logo.png
 try:
-    st.image("assets/logo.png", width=220)
+    st.image("logo.png", width=220)
 except Exception:
     st.warning("No se encontró el logo en 'assets/logo.png'. Agrega una imagen para visualizar el logotipo.")
 
